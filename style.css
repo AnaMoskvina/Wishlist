@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: Var(--white, #2b2e4a);
+  color: #fff;
+}
+
+.center-container {
+  position: relative;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: Var(--pink-red, #e84545);
+}
+
+.wish {
+  position: relative;
+  background-color: Var(--light-blue, #903749);
+  margin-bottom: 7px;
+  width: auto;
+  border-radius: 5px;
+  padding: 5px;
+  color: Var(--dark-blue, #fff);
+}
+
+.wish-title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 120%;
+}
+
+.delete-wish {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 22px;
+  height: 22px;
+  opacity: 1;
+  background: Var(--del-icon, url("icon-del-dark-theme.svg")) no-repeat center
+    center;
+  background-size: 150% 150%;
+  border-radius: 50%;
+  opacity: 100%;
+  border: none;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: Var(--blue, #e84545);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 120%;
+}
+
+.change-theme-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  border: Var(--white, #2b2e4a) solid white;
+  background: Var(--white, #2b2e4a) Var(--theme-icon, url("icon-sun.svg"))
+    no-repeat center center;
+}
+.change-theme-btn:focus {
+  outline: none;
+}
+
+.change-theme-btn:hover {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: Var(--pink-red, #903749);
+  cursor: pointer;
+}
+
+.input-text {
+  padding-left: 5px;
+  width: 100%;
+  border: none;
+  margin-bottom: 5px;
+  height: 150%;
+  border-radius: 5px;
+  height: 30px;
+  background-color: Var(--light-blue, #53354a);
+  color: Var(--dark-blue, #fff);
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row-1 label {
+  width: 20%;
+  color: Var(--dark-blue, #e84545);
+}
+
+.add-to-list-btn {
+  font-size: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: Var(--blue, #999);
+}
+
+a:hover {
+  text-decoration: underline;
+}

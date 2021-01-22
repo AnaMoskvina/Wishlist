@@ -1,0 +1,9 @@
+:root {
+  --light-blue: #dbedf3;
+  --pink-red: #f73859;
+  --blue: #404b69;
+  --dark-blue: #283149;
+  --white: #fff;
+  --theme-icon: url("icon-moon.svg");
+  --del-icon: url("icon-del-light-theme.svg");
+}
